@@ -1,7 +1,7 @@
-import Flyers from '../assets/3dDesgins.png'
-import Flyers2 from '../assets/3dDesgins2.png'
-import Flyers3 from '../assets/3dDesgins3.png'
-import Flyers4 from '../assets/3dDesgins4.avif'
+import MainHeroImages from '../assets/3dDesgins.png'
+import MainHeroImages1 from '../assets/3dDesgins2.png'
+import MainHeroImages2 from '../assets/3dDesgins3.png'
+import MainHeroImages3 from '../assets/3dDesgins4.avif'
 import businessCard from '../assets/businessCard.png'
 import businessCard1 from '../assets/businessCard1.png'
 import businessCard2 from '../assets/businessCard2.png'
@@ -59,6 +59,9 @@ import PaperBags1 from '../assets/PaperBags1.png'
 import PaperBags2 from '../assets/PaperBags2.png'
 import PaperBags3 from '../assets/PaperBags3.png'
 import PaperBags4 from '../assets/PaperBags4.png'
+import Flyer from '../assets/Flyer.png'
+import Flyer1 from '../assets/Flyer1.png'
+import Flyer2 from '../assets/Flyer2.png'
 
 
 export const PRODUCTS = {
@@ -80,7 +83,7 @@ export const PRODUCTS = {
     Flyers: {
         basePrice: 12.99,
         desc: 'Eye-catching flyers in multiple sizes and finishes to promote your business, events, or services effectively.',
-        images: [Flyers4, Flyers, Flyers2, Flyers3,],
+        images: [Flyer1, Flyer, Flyer2],
         options: {
             Size: { 'A5 (148x210mm)': 0, 'A4 (210x297mm)': 2 },
             'Paper Stock': { 'Economy 115 GSM': 0, 'Standard 135-150 GSM': 2, 'Premium 250-300 GSM': 5 },
@@ -215,3 +218,10 @@ export const PRODUCTS = {
         },
     },
 };
+
+export const heroSectionImages = [
+    MainHeroImages3,
+    MainHeroImages,
+    MainHeroImages1,
+    MainHeroImages2,
+]
